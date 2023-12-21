@@ -29,7 +29,13 @@ Error toGrayScale(int *r, int *g, int *b, Mode mode) {
   }
   return NO_ERROR;
 }
+int checkSepia(float value){
+  return (value < 255) ? value : 255;
+}
 
-int toSepia(int *r, int *g, int *b) {
+Error toSepia(int *r, int *g, int *b) {
   //TODO: implement
+  if(r == NULL || g == NULL || b == NULL){
+    return ERROR_PRESENT;
+}
 }
