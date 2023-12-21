@@ -23,9 +23,9 @@ int min(int a, int b, int c);
 /**
  * TODO: add documentation here
  */
-int toGrayScale(int *r, int *g, int *b, Mode mode);
+Error toGrayScale(int *r, int *g, int *b, Mode mode);
 
 /**
  * TODO: add documentation here
  */
-int toSepia(int *r, int *g, int *b);
+Error toSepia(int *r, int *g, int *b);

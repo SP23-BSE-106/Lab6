@@ -13,6 +13,7 @@ int min(int a, int b, int c) {
 
 int toGrayScale(int *r, int *g, int *b, Mode mode) {
   //TODO: implement
+  
 }
 
 int toSepia(int *r, int *g, int *b) {
